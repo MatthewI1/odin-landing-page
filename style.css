@@ -4,41 +4,67 @@ body {
     margin-right: 0%;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
 #top-bar {
     margin-top: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: #1f2937;
+    
     color: #f9faf8;
     padding: 1em;
 }
 
 #dogman {
-    flex: 1 0 0;
-    min-width: 400px;
-    min-height: 100%;
-    height: auto;
+    flex: 0 1 0;
+    height:100%;
     align-self: flex-start;
 
 }
 
 .attract {
     display: flex;
-    flex-flow: column wrap;
     height: 300px;
     width: 80%;
     margin: auto;
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding: 10%;
 
 }
+
+
 
 .attract p {
     /* word-wrap: break-word; */
     /* word-break: break-all; */
     /* flex: 0 1 0; */
     width: 1;
+}
+
+.attract-text > h1 {
+    font-size: 48px;
+    font-weight:800;
+    color: #f9faf8;
+}
+
+.attract-text > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.attract-text > button {
+    background-color: #3882f6;
+    border-radius: 12px;
+    border-style: none;
+    padding: 5px 10px;
+    color: #e5e7eb;
+    font-size: 36px;
 }
 
 ul {
