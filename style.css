@@ -2,6 +2,7 @@ body {
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
+    margin-bottom: 0;
 }
 
 header {
@@ -73,12 +74,13 @@ header {
     align-items: center;
     gap: 30px;
     padding: 30px;
+    padding-bottom: 100px;
 }
 
 .info-boxes {
     display: flex;
     gap:30px;
-    
+    padding: 30px;
     
 }
 
@@ -88,6 +90,7 @@ header {
     align-items: center;
     flex-shrink: 1;
     gap:10px;
+    
 }
 
 .info-set > .img {
@@ -104,6 +107,77 @@ header {
 
 .info-set > p {
     text-align: center;
+}
+
+.quote-section {
+    padding: 10% 5%;
+    background-color: #e5e7eb;
+}
+
+.quote.quote-attr {
+    font-weight: bold;
+    font-size: medium;
+    text-align: end;
+    color:black
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* CALAL TO ACTION */
+.action-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.action {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    padding: 3% 80px;
+    margin: 10%;
+    gap: 80px;
+    align-items: center;
+}
+.action > .action-text > .mini-header {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 600;
+    margin: 0;
+}
+.action > .action-text > .mini-text {
+    font-size: 14px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#action-button {
+    width: 80px;
+    height: 30px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 10px;
+    font-size: x-small;
 }
 
 ul {
